@@ -103,6 +103,10 @@ body main .exercise .card .agoAndComments .cardFooter {
 body main .exercise .card .agoAndComments .cardFooter li {
   margin: 0px 20px;
 }
+body main .exercise .card .agoAndComments .cardFooter li .far, body main .exercise .card .agoAndComments .cardFooter li .fas {
+  font-size: smaller;
+  margin-right: 3px;
+}
 body main .exercise .card:hover {
   background-size: 145%;
   grid-template: "a" 37% "b" 55% "c" 8%;
