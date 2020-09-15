@@ -104,6 +104,11 @@ body main .exercise .card .agoAndComments .cardFooter li .icone {
   font-size: smaller;
   margin-right: 3px;
 }
+body main .exercise .dummy {
+  margin: 0px;
+  padding: 0px;
+  visibility: hidden;
+}
 body main .exercise .card:hover {
   background-size: 145%;
 }
