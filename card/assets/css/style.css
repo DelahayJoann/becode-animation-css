@@ -25,10 +25,10 @@ body main .exercise .card {
   -ms-transition-property: all;
   -o-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 1s ease-in;
+  -webkit-transition-duration: 0s;
   -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s ease-in;
-  -o-transition-duration: 1s ease-in;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
   /* transition-duration: 1s; */
 }
 body main .exercise .card .cardPhoto {
@@ -44,10 +44,10 @@ body main .exercise .card .cardPhoto {
   -ms-transition-property: all;
   -o-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 1s ease-in;
+  -webkit-transition-duration: 0s;
   -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s ease-in;
-  -o-transition-duration: 1s ease-in;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
   /* transition-duration: 1s; */
 }
 body main .exercise .card .cardPhoto .cardDate {
@@ -102,10 +102,10 @@ body main .exercise .card .description .p_description {
   -ms-transition-property: all;
   -o-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 1s ease-in;
+  -webkit-transition-duration: 0s;
   -moz-transition-duration: 1s;
-  -ms-transition-duration: 1s ease-in;
-  -o-transition-duration: 1s ease-in;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
   /* transition-duration: 1s; */
 }
 body main .exercise .card .agoAndComments {

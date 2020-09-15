@@ -8,3 +8,12 @@ Apprentissage lors de la formation BeCode
 
 ## Comment?
 __PAS DE JAVASCRIPT__
+
+## Quand ressort-il?
+
+Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des rows ou columns.
+Les autres navigateur ne feront aucune transition. Les changements seront immédiats pour redimensionnement de Grid.
+Afin de contourner ce problème qui faisait apparaitre des soucis d'animation entre celles qui fonctionnent et celle-là qui ne fonctionne pas,
+j'ai du omettre l'utilisation de la propriété générique: «transition-duration» et n'utiliser que celles avec leur préfixe pour assigner une durée que sur Firefox.
+
+![](./card/assets/img/hack1.png)
