@@ -15,5 +15,5 @@ Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des
 Les autres navigateurs ne feront aucune transition. Les changements seront immédiats pour le redimensionnement de Grid.
 J'ai été obligé de tout modifier pour passer sur du Flexbox.
 
-[__Résultat pour le Drill__](https://delahayjoann.github.io/becode-animation-css/drill/)
+[__Résultat pour le Drill__](https://delahayjoann.github.io/becode-animation-css/drill/)<br>
 [__Résultat pour la Card__](https://delahayjoann.github.io/becode-animation-css/card/)

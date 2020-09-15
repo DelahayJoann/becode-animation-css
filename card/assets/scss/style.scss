@@ -20,7 +20,7 @@ body{
                 margin: auto;
                 display: flex;
                 flex-direction: column;
-                transition: background-size 1s linear;
+                transition: background-size 500ms linear;
 
                 .cardPhoto{
                     /* grid-area: a; */
@@ -31,7 +31,7 @@ body{
                     background-color: rgba(255, 255, 255, 0);
                     display: flex;
                     justify-content: right;
-                    transition: height 1s linear;
+                    transition: height 500ms linear;
 
                     
                     .cardDate{
@@ -63,7 +63,7 @@ body{
                 .description{
                     height: 30%;
                     background-color: whitesmoke;
-                    transition: height 1s linear;
+                    transition: height 500ms linear;
                     .descriptionTitle{
                         margin-top: 40px;
                         margin-left: 25px;
@@ -82,7 +82,7 @@ body{
                         height: 0%;
                         overflow-y: hidden;
                         visibility: hidden;
-                        transition: height 1s linear, visibility 1s linear;
+                        transition: height 500ms linear, visibility 500ms linear;
                     }
                 }
                 .agoAndComments{

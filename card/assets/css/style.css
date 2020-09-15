@@ -20,7 +20,7 @@ body main .exercise .card {
   margin: auto;
   display: flex;
   flex-direction: column;
-  transition: background-size 1s linear;
+  transition: background-size 500ms linear;
 }
 body main .exercise .card .cardPhoto {
   /* grid-area: a; */
@@ -30,7 +30,7 @@ body main .exercise .card .cardPhoto {
   background-color: rgba(255, 255, 255, 0);
   display: flex;
   justify-content: right;
-  transition: height 1s linear;
+  transition: height 500ms linear;
 }
 body main .exercise .card .cardPhoto .cardDate {
   color: white;
@@ -60,7 +60,7 @@ body main .exercise .card .cardPhoto .categoryName {
 body main .exercise .card .description {
   height: 30%;
   background-color: whitesmoke;
-  transition: height 1s linear;
+  transition: height 500ms linear;
 }
 body main .exercise .card .description .descriptionTitle {
   margin-top: 40px;
@@ -80,7 +80,7 @@ body main .exercise .card .description .p_description {
   height: 0%;
   overflow-y: hidden;
   visibility: hidden;
-  transition: height 1s linear, visibility 1s linear;
+  transition: height 500ms linear, visibility 500ms linear;
 }
 body main .exercise .card .agoAndComments {
   width: auto;
