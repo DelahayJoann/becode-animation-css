@@ -16,3 +16,13 @@ Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des
 Les autres navigateurs ne feront aucune transition. Les changements seront immédiats pour le redimensionnement de Grid.
 Afin de contourner ce problème qui faisait apparaitre des soucis d'animation entre celles qui fonctionnent et celle-là qui ne fonctionne pas,
 j'ai du omettre l'utilisation de la propriété générique: «transition-duration» et n'utiliser que celles avec le préfixe pour assigner une durée que sur Firefox.
+
+```css
+display: grid;
+grid-template:
+"a" 62%
+"b" 30%
+"c" 8%;
+-moz-transition-property: all;
+-moz-transition-duration: 1s;
+```
