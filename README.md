@@ -1,7 +1,7 @@
 # Animation CSS
 
 ## Quoi?
-Réaliser des animations en utilisant les propriétés css transition et animation.
+Réaliser des animations en utilisant la propriété css transition.
 
 ## Pourquoi?
 Apprentissage lors de la formation BeCode
@@ -14,3 +14,6 @@ En utilisant exclusivement la propriété transition<br>
 Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des rows ou columns dans un Grid.
 Les autres navigateurs ne feront aucune transition. Les changements seront immédiats pour le redimensionnement de Grid.
 J'ai été obligé de tout modifier pour passer sur du Flexbox.
+
+[__Résultat pour le Drill__](https://delahayjoann.github.io/becode-animation-css/drill/)
+[__Résultat pour la Card__](https://delahayjoann.github.io/becode-animation-css/card/)
