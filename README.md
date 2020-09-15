@@ -7,8 +7,9 @@ Réaliser des animations en utilisant les propriétés css transition et animati
 Apprentissage lors de la formation BeCode
 
 ## Comment?
-__PAS DE JAVASCRIPT__
-Contrainte: Ne fonctionne que sur Firefox pour les raisons ci-dessous.
+__PAS DE JAVASCRIPT__ <br>
+En utilisant exclusivement la propriété transition
+__Contrainte__: Ne fonctionne que sur Firefox pour les raisons ci-dessous.<br>
 
 ## Quand ressort-il?
 Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des rows ou columns dans un Grid.
