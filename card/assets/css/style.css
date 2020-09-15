@@ -27,7 +27,7 @@ body main .exercise .card {
   margin: auto;
   display: flex;
   flex-direction: column;
-  transition: background-size 500ms linear;
+  transition: background-size 500ms linear, box-shadow 500ms linear;
 }
 body main .exercise .card .cardPhoto {
   height: 68%;
