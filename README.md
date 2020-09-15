@@ -8,7 +8,7 @@ Apprentissage lors de la formation BeCode
 
 ## Comment?
 __PAS DE JAVASCRIPT__ <br>
-En utilisant exclusivement la propriété transition<br>
+En utilisant exclusivement la propriété transition et le :hover<br>
 
 ## Quand ressort-il?
 Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des rows ou columns dans un Grid.
