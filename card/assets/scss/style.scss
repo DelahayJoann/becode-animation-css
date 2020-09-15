@@ -3,7 +3,11 @@ body{
     margin: auto;
     background-color: lightgrey;
     font-size: large;
-
+.dummy{
+    margin: 0px;
+    padding: 0px;
+    visibility: hidden;
+}
     main{
         width: 50%;
         margin: auto;
@@ -110,11 +114,6 @@ body{
                         }
                     }
                 }
-            }
-            .dummy{
-                margin: 0px;
-                padding: 0px;
-                visibility: hidden;
             }
             .card:hover{
                 background-size: 145%;
