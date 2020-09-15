@@ -18,11 +18,29 @@ Afin de contourner ce problème qui faisait apparaitre des soucis d'animation en
 j'ai du omettre l'utilisation de la propriété générique: «transition-duration» et n'utiliser que celles avec le préfixe pour assigner une durée que sur Firefox.
 
 ```css
-display: grid;
-grid-template:
-"a" 62%
-"b" 30%
-"c" 8%;
--moz-transition-property: all;
--moz-transition-duration: 1s;
+.card{
+	width: 380px;
+	height: 500px;
+	background: url(../img/pinkindiangirl.jpg);
+	background-repeat: no-repeat;
+	background-size: 135%;
+	margin: auto;
+	display: grid;
+	grid-template:
+	"a" 62%
+	"b" 30%
+	"c" 8%;
+	-moz-transition-property: all;
+	-moz-transition-duration: 1s;
+}
+```
+
+```css
+.card:hover{
+	background-size: 145%;
+	grid-template:
+	"a" 37%
+	"b" 55%
+	"c" 8%;
+}
 ```
