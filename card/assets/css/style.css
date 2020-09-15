@@ -62,6 +62,7 @@ body main .exercise .card .cardPhoto .categoryName {
   position: absolute;
   bottom: -10px;
   left: 0px;
+  font-size: medium;
 }
 body main .exercise .card .description {
   height: 30%;
@@ -69,7 +70,7 @@ body main .exercise .card .description {
   transition: height 500ms linear;
 }
 body main .exercise .card .description .descriptionTitle {
-  margin-top: 40px;
+  margin-top: 35px;
   margin-left: 25px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -97,14 +98,15 @@ body main .exercise .card .agoAndComments .cardFooter {
   width: 100%;
   list-style: none;
   margin: 0px 0px 10px 0px;
+  margin-left: 25px;
   padding: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: flex-start;
   color: grey;
 }
 body main .exercise .card .agoAndComments .cardFooter li {
-  margin: 0px 20px;
+  margin: 0px 20px 0px 0px;
 }
 body main .exercise .card .agoAndComments .cardFooter li .icone {
   font-size: smaller;

@@ -63,6 +63,7 @@ body{
                         position: absolute;
                         bottom: -10px;
                         left: 0px;
+                        font-size: medium;
                     }
                 }
                 .description{
@@ -70,7 +71,7 @@ body{
                     background-color: whitesmoke;
                     transition: height 500ms linear;
                     .descriptionTitle{
-                        margin-top: 40px;
+                        margin-top: 35px;
                         margin-left: 25px;
                         margin-bottom: 10px;
                         text-transform: uppercase;
@@ -99,14 +100,15 @@ body{
                         width: 100%;
                         list-style: none;
                         margin: 0px 0px 10px 0px;
+                        margin-left: 25px;
                         padding: 0px;
                         display:flex;
                         flex-direction: row;
-                        justify-content: left;
+                        justify-content: flex-start;
                         color: grey;
 
                         li{
-                            margin: 0px 20px;
+                            margin: 0px 20px 0px 0px;
 
                             .icone{
                                 font-size: smaller;
