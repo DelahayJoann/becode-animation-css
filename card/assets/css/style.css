@@ -23,6 +23,7 @@ body main .exercise .card {
   background: url(../img/pinkindiangirl.jpg);
   background-repeat: no-repeat;
   background-size: 135%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -116,6 +117,7 @@ body main .exercise .card .agoAndComments .cardFooter li .icone {
 }
 body main .exercise .card:hover {
   background-size: 145%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 body main .exercise .card:hover .cardPhoto {
   background-color: rgba(255, 255, 255, 0.3);
