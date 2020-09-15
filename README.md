@@ -20,4 +20,4 @@ J'ai été obligé de tout modifier pour passer sur du Flexbox.
 
 ## W3C Validator
 
-![](./assets/img/w3cvalid.png)
+![](./card/assets/img/w3cvalid.png)
