@@ -28,14 +28,15 @@ body{
                 transition: background-size 500ms linear;
 
                 .cardPhoto{
-                    /* grid-area: a; */
-                    
                     height: 68%;
                     width: 100%;
                     position: relative;
                     background-color: rgba(255, 255, 255, 0);
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: right;
+                    flex-direction: row;
+                    justify-content: flex-end;
                     transition: height 500ms linear;
 
                     
