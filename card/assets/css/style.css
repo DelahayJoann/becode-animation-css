@@ -103,7 +103,7 @@ body main .exercise .card .agoAndComments .cardFooter {
 body main .exercise .card .agoAndComments .cardFooter li {
   margin: 0px 20px;
 }
-body main .exercise .card .agoAndComments .cardFooter li .far, body main .exercise .card .agoAndComments .cardFooter li .fas {
+body main .exercise .card .agoAndComments .cardFooter li .icone {
   font-size: smaller;
   margin-right: 3px;
 }
