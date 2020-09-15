@@ -17,3 +17,7 @@ J'ai été obligé de tout modifier pour passer sur du Flexbox.
 
 [__Résultat pour le Drill__](https://delahayjoann.github.io/becode-animation-css/drill/)<br>
 [__Résultat pour la Card__](https://delahayjoann.github.io/becode-animation-css/card/)
+
+## W3C Validator
+
+![](./assets/img/w3cvalid.png)
