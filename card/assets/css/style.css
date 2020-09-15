@@ -20,16 +20,8 @@ body main .exercise .card {
   margin: auto;
   display: grid;
   grid-template: "a" 62% "b" 30% "c" 8%;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
-  -ms-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0s;
   -moz-transition-duration: 1s;
-  -ms-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  /* transition-duration: 1s; */
 }
 body main .exercise .card .cardPhoto {
   grid-area: a;
@@ -39,16 +31,8 @@ body main .exercise .card .cardPhoto {
   background-color: rgba(255, 255, 255, 0);
   display: grid;
   justify-content: right;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
-  -ms-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0s;
   -moz-transition-duration: 1s;
-  -ms-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  /* transition-duration: 1s; */
 }
 body main .exercise .card .cardPhoto .cardDate {
   color: white;
@@ -97,16 +81,8 @@ body main .exercise .card .description .p_description {
   height: 0%;
   overflow: hidden;
   visibility: hidden;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
-  -ms-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0s;
   -moz-transition-duration: 1s;
-  -ms-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  /* transition-duration: 1s; */
 }
 body main .exercise .card .agoAndComments {
   grid-area: c;
