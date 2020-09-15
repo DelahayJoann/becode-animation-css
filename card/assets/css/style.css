@@ -20,16 +20,35 @@ body main .exercise .card {
   margin: auto;
   display: grid;
   grid-template: "a" 62% "b" 30% "c" 8%;
-  transition: grid-template 1s, background-size 1s ease-out;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s ease-in;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s ease-in;
+  -o-transition-duration: 1s ease-in;
+  /* transition-duration: 1s; */
 }
 body main .exercise .card .cardPhoto {
+  grid-area: a;
   height: 100%;
   width: 100%;
   position: relative;
   background-color: rgba(255, 255, 255, 0);
-  transition: background-color 1s;
   display: grid;
   justify-content: right;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s ease-in;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s ease-in;
+  -o-transition-duration: 1s ease-in;
+  /* transition-duration: 1s; */
 }
 body main .exercise .card .cardPhoto .cardDate {
   color: white;
@@ -75,14 +94,19 @@ body main .exercise .card .description .descriptionSubtitle {
 }
 body main .exercise .card .description .p_description {
   margin-left: 25px;
-  height: 10px;
+  height: 0%;
   overflow: hidden;
-  text-overflow: clip;
   visibility: hidden;
-  transition: visibility 1s linear, height 1s linear;
-  display: -webkit-box;
-  -webkit-line-clamp: 7;
-  -webkit-box-orient: vertical;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s ease-in;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s ease-in;
+  -o-transition-duration: 1s ease-in;
+  /* transition-duration: 1s; */
 }
 body main .exercise .card .agoAndComments {
   grid-area: c;
