@@ -9,38 +9,8 @@ Apprentissage lors de la formation BeCode
 ## Comment?
 __PAS DE JAVASCRIPT__ <br>
 En utilisant exclusivement la propriété transition<br>
-__Contrainte__: Ne fonctionne que sur Firefox pour les raisons ci-dessous.
 
 ## Quand ressort-il?
 Actuellement, seul Firefox permet d'animer le redimensionnement de la taille des rows ou columns dans un Grid.
 Les autres navigateurs ne feront aucune transition. Les changements seront immédiats pour le redimensionnement de Grid.
-Afin de contourner ce problème qui faisait apparaitre des soucis d'animation entre celles qui fonctionnent et celle-là qui ne fonctionne pas,
-j'ai du omettre l'utilisation de la propriété générique: «transition-duration» et n'utiliser que celles avec le préfixe pour assigner une durée que sur Firefox.
-
-```css
-.card{
-	width: 380px;
-	height: 500px;
-	background: url(../img/pinkindiangirl.jpg);
-	background-repeat: no-repeat;
-	background-size: 135%;
-	margin: auto;
-	display: grid;
-	grid-template:
-	"a" 62%
-	"b" 30%
-	"c" 8%;
-	-moz-transition-property: all;
-	-moz-transition-duration: 1s;
-}
-```
-
-```css
-.card:hover{
-	background-size: 145%;
-	grid-template:
-	"a" 37%
-	"b" 55%
-	"c" 8%;
-}
-```
+J'ai été obligé de tout modifier pour passer sur du Flexbox.
