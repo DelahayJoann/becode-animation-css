@@ -1,0 +1,131 @@
+body{
+    width: 90%;
+    margin: auto;
+    background-color: lightgrey;
+    font-size: large;
+
+    main{
+        width: 50%;
+        margin: auto;
+
+        .exercise{
+            margin-top: 200px;
+
+            .card{
+                width: 380px;
+                height: 500px;
+                background: url(../img/pinkindiangirl.jpg);
+                background-repeat: no-repeat;
+                background-size: 135%;
+                margin: auto;
+                display: grid;
+                grid-template:
+                "a" 62%
+                "b" 30%
+                "c" 8%;
+                transition: grid-template 1s, background-size 1s ease-out;
+
+                .cardPhoto{
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: background-color 1s;
+                    display: grid;
+                    justify-content: right;
+                    
+                    .cardDate{
+                        color: white;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                        background-color: red;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin-right: 25px;
+                        margin-top: 25px;
+                    }
+                    .categoryName{
+                        margin-left: 25px;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        margin: 0px;
+                        padding: 10px;
+                        background-color: red;
+                        color: white;
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0px;
+                    }
+                }
+                .description{
+                    grid-area: b;
+                    background-color: whitesmoke;
+                    
+                    .descriptionTitle{
+                        margin-top: 40px;
+                        margin-left: 25px;
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                    }
+                    .descriptionSubtitle{
+                        margin-top: 10px;
+                        margin-left: 25px;
+                        color: red;
+                        font-size: larger;
+                        font-weight: 300;
+                    }
+                    .p_description{
+                        margin-left: 25px;
+                        height: 10px;
+                        overflow: hidden;
+                        text-overflow: clip;
+                        visibility: hidden;
+                        transition: visibility 1s linear, height 1s linear;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 7;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+                .agoAndComments{
+                    grid-area: c;
+                    width: auto;
+                    height: auto;
+                    background-color: whitesmoke;
+
+                    .cardFooter{
+                        width: 100%;
+                        list-style: none;
+                        margin: 0px 0px 10px 0px;
+                        padding: 0px;
+                        display:flex;
+                        flex-direction: row;
+                        justify-content: left;
+                        color: grey;
+
+                        li{
+                            margin: 0px 20px;
+                        }
+                    }
+                }
+            }
+            .card:hover{
+                background-size: 145%;
+                grid-template:
+                "a" 37%
+                "b" 55%
+                "c" 8%;
+
+                .cardPhoto{
+                    background-color: rgba(255, 255, 255, 0.3);
+                }
+                .p_description{
+                    visibility: visible;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
