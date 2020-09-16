@@ -75,11 +75,12 @@ body {
             font-size: larger;
             font-weight: 300; }
           body main .exercise .card .description .p_description {
-            margin-left: 25px;
+            margin: 0px 25px;
             height: 0%;
             overflow-y: hidden;
             visibility: hidden;
-            transition: height 500ms linear, visibility 500ms linear; }
+            transition: height 500ms linear, visibility 500ms linear;
+            font-size: 16px; }
         body main .exercise .card .agoAndComments {
           width: auto;
           height: 8%;

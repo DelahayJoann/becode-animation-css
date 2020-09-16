@@ -85,11 +85,12 @@ body{
                         font-weight: 300;
                     }
                     .p_description{
-                        margin-left: 25px;
+                        margin: 0px 25px;
                         height: 0%;
                         overflow-y: hidden;
                         visibility: hidden;
                         transition: height 500ms linear, visibility 500ms linear;
+                        font-size: 16px;
                     }
                 }
                 .agoAndComments{
